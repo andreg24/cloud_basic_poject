@@ -24,6 +24,3 @@ The web interface can be accessed through `http://localhost:80`
 ## Testing with Locust
 
 To test the load capabilities and performance of the system we used the script **CreateTestUsers.ps1** to generate 30 users and then we performed the test using Locust. We performed 4 tests, differing for the size of the files uploaded. We accessed the Locust interface at `http://localhost:8089/`.
-
-To perform the locust tests we can now use the locust web interface from `http://localhost:8089/`.
-
